@@ -3,9 +3,17 @@
 **Explore stopping-distance assumptions before designing a controlled trial.**  
 **Explore hipóteses de distância de parada antes de planejar um ensaio controlado.**
 
-[![Checks](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 automated tests / testes automatizados** · **MIT**
+[![Checks](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 browser tests / testes do navegador** · **MIT**
 
 [English](#english) · [Português](#portugues) · [Live demo · Demonstração](https://galafis.github.io/go2-pro-stop-envelope/) · [Five examples · Cinco exemplos](#examples)
+
+## C++ numerical library · Biblioteca numérica C++
+
+**C++17 · JavaScript** — a reusable offline model, JSON/CSV command line, CMake build, numerical boundary tests and independent comparisons against every public JavaScript example.
+
+**C++17 · JavaScript** — modelo offline reutilizável, linha de comando JSON/CSV, compilação CMake, testes numéricos de limites e comparações independentes com todos os exemplos públicos JavaScript.
+
+[Build, examples and method / Compilação, exemplos e método](docs/CPP.md) · [C++ source / Código C++](cpp) · [Executed output / Saída executada](examples/cpp/nominal.report.json)
 
 ## Workflow · Fluxo de trabalho
 

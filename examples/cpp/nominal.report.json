@@ -1,0 +1,12 @@
+{
+  "nominalM": 0.95,
+  "upperM": 1.175,
+  "remainingM": 0.825,
+  "modelSpeedMps": 1.4400000000000002,
+  "components": {
+    "reactionM": 0.35,
+    "brakingM": 0.625,
+    "marginM": 0.2
+  },
+  "withinSuppliedDistance": true
+}

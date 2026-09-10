@@ -3,3 +3,7 @@ coverage/
 *.local.json
 .DS_Store
 Thumbs.db
+
+# C++ build artifacts / Artefatos de compilação
+build/
+__pycache__/

@@ -46,3 +46,9 @@ GitHub Checks executes the suite on Linux and Windows with Node.js 22 and 24. Co
 English: Known-answer checks verify independent numerical expectations. Invariant checks exercise multiple generated configurations, including unfavorable outcomes. The command-line test compares its exported report with the same validated domain calculation. Browser-render checks verify that both languages produce charts without non-finite coordinates; they do not replace interactive keyboard and layout review. No hardware, participant or emergency-use validation is claimed.
 
 Português: Testes de resposta conhecida verificam expectativas numéricas independentes. Verificações de invariantes exercitam diversas configurações geradas, incluindo resultados desfavoráveis. O teste da linha de comando compara a exportação com o cálculo de domínio validado. Verificações dos gráficos conferem os dois idiomas e coordenadas finitas; não substituem revisão interativa de teclado e layout. Não se afirma validação em hardware, com participantes ou para emergências.
+
+## C++ verification · Verificação C++
+
+The independent library and CLI are compiled with warnings treated as errors. C++ invariant tests and comparisons against all JavaScript scenarios and curves are documented in the [bilingual C++ guide](CPP.md).
+
+A biblioteca e a linha de comando independentes são compiladas com avisos tratados como erros. Testes de invariantes C++ e comparações com todos os cenários e curvas JavaScript estão no [guia bilíngue C++](CPP.md).
