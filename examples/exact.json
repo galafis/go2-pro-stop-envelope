@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "analytical-boundary",
+  "source": "synthetic",
+  "speedMps": 2,
+  "reactionMs": 500,
+  "reactionUncertaintyMs": 0,
+  "decelerationMps2": 2,
+  "decelerationUncertaintyPct": 0,
+  "marginM": 0.25,
+  "availableM": 2.25
+}

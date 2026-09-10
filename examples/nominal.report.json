@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "analysisVersion": "0.1.0",
+  "projectId": "go2-pro-stop-envelope",
+  "scenarioId": "controlled-stop-assumptions",
+  "source": "synthetic",
+  "status": "complete",
+  "metrics": [
+    {
+      "key": "nominalM",
+      "label": {
+        "en": "Nominal envelope",
+        "pt": "Envoltório nominal"
+      },
+      "value": 0.95,
+      "unit": "m"
+    },
+    {
+      "key": "upperM",
+      "label": {
+        "en": "Upper envelope",
+        "pt": "Envoltório superior"
+      },
+      "value": 1.175,
+      "unit": "m"
+    },
+    {
+      "key": "remainingM",
+      "label": {
+        "en": "Distance margin",
+        "pt": "Margem de distância"
+      },
+      "value": 0.825,
+      "unit": "m"
+    },
+    {
+      "key": "modelSpeedMps",
+      "label": {
+        "en": "Model speed bound",
+        "pt": "Limite de velocidade do modelo"
+      },
+      "value": 1.44,
+      "unit": "m/s"
+    }
+  ],
+  "findings": [],
+  "records": [
+    {
+      "speedMps": 0,
+      "nominalM": 0.2,
+      "upperM": 0.2
+    },
+    {
+      "speedMps": 0.25,
+      "nominalM": 0.29375,
+      "upperM": 0.326562
+    },
+    {
+      "speedMps": 0.5,
+      "nominalM": 0.45,
+      "upperM": 0.53125
+    },
+    {
+      "speedMps": 0.75,
+      "nominalM": 0.66875,
+      "upperM": 0.814062
+    },
+    {
+      "speedMps": 1,
+      "nominalM": 0.95,
+      "upperM": 1.175
+    },
+    {
+      "speedMps": 1.25,
+      "nominalM": 1.29375,
+      "upperM": 1.614062
+    },
+    {
+      "speedMps": 1.5,
+      "nominalM": 1.7,
+      "upperM": 2.13125
+    },
+    {
+      "speedMps": 1.75,
+      "nominalM": 2.16875,
+      "upperM": 2.726563
+    },
+    {
+      "speedMps": 2,
+      "nominalM": 2.7,
+      "upperM": 3.4
+    },
+    {
+      "speedMps": 2.25,
+      "nominalM": 3.29375,
+      "upperM": 4.151562
+    },
+    {
+      "speedMps": 2.5,
+      "nominalM": 3.95,
+      "upperM": 4.98125
+    },
+    {
+      "speedMps": 2.75,
+      "nominalM": 4.66875,
+      "upperM": 5.889063
+    },
+    {
+      "speedMps": 3,
+      "nominalM": 5.45,
+      "upperM": 6.875
+    },
+    {
+      "speedMps": 3.25,
+      "nominalM": 6.29375,
+      "upperM": 7.939063
+    },
+    {
+      "speedMps": 3.5,
+      "nominalM": 7.2,
+      "upperM": 9.08125
+    },
+    {
+      "speedMps": 3.75,
+      "nominalM": 8.16875,
+      "upperM": 10.301562
+    },
+    {
+      "speedMps": 4,
+      "nominalM": 9.2,
+      "upperM": 11.6
+    },
+    {
+      "speedMps": 4.25,
+      "nominalM": 10.29375,
+      "upperM": 12.976563
+    },
+    {
+      "speedMps": 4.5,
+      "nominalM": 11.45,
+      "upperM": 14.43125
+    },
+    {
+      "speedMps": 4.75,
+      "nominalM": 12.66875,
+      "upperM": 15.964062
+    },
+    {
+      "speedMps": 5,
+      "nominalM": 13.95,
+      "upperM": 17.575
+    },
+    {
+      "speedMps": 5.25,
+      "nominalM": 15.29375,
+      "upperM": 19.264062
+    },
+    {
+      "speedMps": 5.5,
+      "nominalM": 16.7,
+      "upperM": 21.03125
+    },
+    {
+      "speedMps": 5.75,
+      "nominalM": 18.16875,
+      "upperM": 22.876562
+    },
+    {
+      "speedMps": 6,
+      "nominalM": 19.7,
+      "upperM": 24.8
+    },
+    {
+      "speedMps": 6.25,
+      "nominalM": 21.29375,
+      "upperM": 26.801562
+    },
+    {
+      "speedMps": 6.5,
+      "nominalM": 22.95,
+      "upperM": 28.88125
+    },
+    {
+      "speedMps": 6.75,
+      "nominalM": 24.66875,
+      "upperM": 31.039063
+    },
+    {
+      "speedMps": 7,
+      "nominalM": 26.45,
+      "upperM": 33.275
+    },
+    {
+      "speedMps": 7.25,
+      "nominalM": 28.29375,
+      "upperM": 35.589063
+    },
+    {
+      "speedMps": 7.5,
+      "nominalM": 30.2,
+      "upperM": 37.98125
+    },
+    {
+      "speedMps": 7.75,
+      "nominalM": 32.16875,
+      "upperM": 40.451563
+    },
+    {
+      "speedMps": 8,
+      "nominalM": 34.2,
+      "upperM": 43
+    },
+    {
+      "speedMps": 8.25,
+      "nominalM": 36.29375,
+      "upperM": 45.626563
+    },
+    {
+      "speedMps": 8.5,
+      "nominalM": 38.45,
+      "upperM": 48.33125
+    },
+    {
+      "speedMps": 8.75,
+      "nominalM": 40.66875,
+      "upperM": 51.114063
+    },
+    {
+      "speedMps": 9,
+      "nominalM": 42.95,
+      "upperM": 53.975
+    },
+    {
+      "speedMps": 9.25,
+      "nominalM": 45.29375,
+      "upperM": 56.914063
+    },
+    {
+      "speedMps": 9.5,
+      "nominalM": 47.7,
+      "upperM": 59.93125
+    },
+    {
+      "speedMps": 9.75,
+      "nominalM": 50.16875,
+      "upperM": 63.026563
+    },
+    {
+      "speedMps": 10,
+      "nominalM": 52.7,
+      "upperM": 66.2
+    }
+  ],
+  "selectedSpeedMps": 1,
+  "availableM": 2,
+  "components": {
+    "reactionM": 0.35,
+    "brakingM": 0.625,
+    "marginM": 0.2
+  },
+  "worstReactionS": 0.35,
+  "worstDecelerationMps2": 0.8,
+  "nominalStopTimeS": 1.25,
+  "upperStopTimeS": 1.6
+}

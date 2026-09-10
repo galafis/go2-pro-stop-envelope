@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "zero-speed",
+  "source": "synthetic",
+  "speedMps": 0,
+  "reactionMs": 250,
+  "reactionUncertaintyMs": 100,
+  "decelerationMps2": 1,
+  "decelerationUncertaintyPct": 20,
+  "marginM": 0.2,
+  "availableM": 2
+}

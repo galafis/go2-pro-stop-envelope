@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "distance-deficit",
+  "source": "synthetic",
+  "speedMps": 2,
+  "reactionMs": 250,
+  "reactionUncertaintyMs": 100,
+  "decelerationMps2": 1,
+  "decelerationUncertaintyPct": 20,
+  "marginM": 0.2,
+  "availableM": 1
+}

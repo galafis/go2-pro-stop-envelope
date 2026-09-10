@@ -1,0 +1,47 @@
+[
+  {
+    "file": "nominal.json",
+    "report": "nominal.report.json",
+    "label": {
+      "en": "Baseline assumptions",
+      "pt": "Hipóteses de referência"
+    },
+    "expectedStatus": "complete"
+  },
+  {
+    "file": "latency.json",
+    "report": "latency.report.json",
+    "label": {
+      "en": "Longer response delay",
+      "pt": "Maior atraso de resposta"
+    },
+    "expectedStatus": "review-required"
+  },
+  {
+    "file": "deficit.json",
+    "report": "deficit.report.json",
+    "label": {
+      "en": "Distance deficit",
+      "pt": "Déficit de distância"
+    },
+    "expectedStatus": "review-required"
+  },
+  {
+    "file": "stationary.json",
+    "report": "stationary.report.json",
+    "label": {
+      "en": "Zero initial speed",
+      "pt": "Velocidade inicial zero"
+    },
+    "expectedStatus": "complete"
+  },
+  {
+    "file": "exact.json",
+    "report": "exact.report.json",
+    "label": {
+      "en": "Exact analytical boundary",
+      "pt": "Limite analítico exato"
+    },
+    "expectedStatus": "complete"
+  }
+]

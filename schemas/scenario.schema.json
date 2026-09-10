@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/galafis/go2-pro-stop-envelope/blob/main/schemas/scenario.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "scenarioId",
+    "source",
+    "speedMps",
+    "reactionMs",
+    "reactionUncertaintyMs",
+    "decelerationMps2",
+    "decelerationUncertaintyPct",
+    "marginM",
+    "availableM"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "scenarioId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+    },
+    "source": {
+      "enum": ["synthetic", "manual"]
+    },
+    "speedMps": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "reactionMs": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "reactionUncertaintyMs": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "decelerationMps2": {
+      "type": "number",
+      "minimum": 0.01,
+      "maximum": 20
+    },
+    "decelerationUncertaintyPct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 95
+    },
+    "marginM": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20
+    },
+    "availableM": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1000
+    }
+  }
+}
