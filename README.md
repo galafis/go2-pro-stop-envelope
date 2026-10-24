@@ -1,31 +1,31 @@
 # Go2 PRO Stop Envelope
 
-**Explore stopping-distance assumptions before designing a controlled trial.**  
-**Explore hipóteses de distância de parada antes de planejar um ensaio controlado.**
+**Numerical modeling · Modelagem numérica**
 
-[![Checks](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 browser tests / testes do navegador** · **MIT**
+<p align="center"><img src="assets/project-overview.svg" width="960" alt="Workflow illustration: Speed and delay → Stopping equation → Distance margin"></p>
 
-[English](#english) · [Português](#portugues) · [Live demo · Demonstração](https://galafis.github.io/go2-pro-stop-envelope/) · [Five examples · Cinco exemplos](#examples)
+[![Checks](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml)
+[English](#english) · [Português](#portugues) · [Guided tour / Visita guiada](docs/SHOWCASE.md) · [Validation / Validação](docs/VALIDATION.md)
 
-## C++ numerical library · Biblioteca numérica C++
+> **EN:** What distance follows from the supplied stopping assumptions?<br>
+> **PT:** Qual distância resulta das hipóteses de parada informadas?
 
-**C++17 · JavaScript** — a reusable offline model, JSON/CSV command line, CMake build, numerical boundary tests and independent comparisons against every public JavaScript example.
+## Start here · Comece aqui
 
-**C++17 · JavaScript** — modelo offline reutilizável, linha de comando JSON/CSV, compilação CMake, testes numéricos de limites e comparações independentes com todos os exemplos públicos JavaScript.
+| Goal · Objetivo | Where to go · Por onde começar |
+| --- | --- |
+| Understand a real example · Entender um exemplo concreto | [Walkthrough / Roteiro](docs/EXPERIMENTS.md) |
+| Reproduce and compare · Reproduzir e comparar | [Evidence tour / Visita às evidências](docs/SHOWCASE.md) |
+| Inspect the checks · Inspecionar as verificações | [Validation record / Registro de validação](docs/VALIDATION.md) · [CI](https://github.com/galafis/go2-pro-stop-envelope/actions/workflows/ci.yml) |
+| Explore in the browser · Explorar no navegador | [Public demonstration / Demonstração pública](https://galafis.github.io/go2-pro-stop-envelope/) |
 
-[Build, examples and method / Compilação, exemplos e método](docs/CPP.md) · [C++ source / Código C++](cpp) · [Executed output / Saída executada](examples/cpp/nominal.report.json)
+**Example result · Resultado do exemplo:** Nominal envelope / EnvoltÃ³rio nominal: **2.7 m**; Upper envelope / EnvoltÃ³rio superior: **3.4 m**; Distance margin / Margem de distÃ¢ncia: **-2.4 m**
 
-## Workflow · Fluxo de trabalho
+**Try a comparison · Experimente uma comparação**<br>
+**EN:** Compare the exact boundary with the distance deficit; change reaction delay and inspect the speed sweep.<br>
+**PT:** Compare limite exato e distância insuficiente; altere o atraso de reação e inspecione a varredura de velocidades.
 
-```mermaid
-flowchart LR
-  A["Speed and assumptions / Velocidade e hipóteses"] --> B["Reaction distance / Distância de reação"]
-  A --> C["Braking distance / Distância de frenagem"]
-  B --> D["Add geometric margin / Somar margem geométrica"]
-  C --> D
-  D --> E["Nominal and upper envelopes / Envoltórios nominal e superior"]
-  E --> F["Distance deficit and speed sweep / Déficit e varredura de velocidade"]
-```
+[![Existing application preview / Prévia existente da aplicação](assets/preview-en.svg)](https://galafis.github.io/go2-pro-stop-envelope/)
 
 <a id="english"></a>
 
